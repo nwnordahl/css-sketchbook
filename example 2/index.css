@@ -5,15 +5,18 @@
 }
 
 .child {
-  display: grid;
-  place-items: center;
   flex: 1 1 300px;
+  height: 500px;
   margin: 10px;
-  height: 1000px;
-  border: 1px solid lightgreen;
-  background: lightgreen;
+  border: 1px solid green;
+  background: rgb(89, 214, 156);
   font-size: 2rem;
   text-align: center;
+}
+
+.container {
+  display: grid;
+  place-items: center;
 }
 
 body {
